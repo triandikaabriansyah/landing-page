@@ -1,0 +1,158 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+	background-color:  #42455a;
+}
+.menu ul{
+	display: inline-flex;
+	margin: 50px;
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 20px;
+	color: #b2b1b1;
+	cursor: pointer;
+}
+.active{
+	color: #19dafa !important;
+}
+.logo img{
+	width: 50px;
+	margin-top: -17px;
+	margin-right: 40px;
+	position: absolute;
+	left: 45px;
+}
+.sign-up{
+	top: 40px;
+	right: 40px;
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#42555a, #42555a), radial-gradient(circle at top left,#fd00da,#19d7f8);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	right: 30px;
+}
+.sign-up span {
+	display: block;
+	padding: 8px 22px;
+}
+.text{
+	width: 50%;
+	float: left;
+}
+.text h1{
+	font-size: 48px;
+	width: 640px;
+	position: relative;
+	margin-left: 145px;
+	color: #ffffff;
+}
+.text .isi{
+	position: absolute;
+	top: 195px;
+}
+.text p{
+	width: 650px;
+	font-size: 15px;
+	margin : 30px 0 30px 40px;
+	line-height: 20px;
+	position: absolute;
+	top: 270px;
+	color: #fff;
+	margin-left: 145px;
+	color: #919191;
+}
+.gambar img{
+	width: 400px;
+	position: absolute;
+	top: 30px;
+	right: 150px;
+}
+hr{
+	position: absolute;
+	left: 145px;
+	top: 200px;
+}
+.play {
+	margin-left: 40px;
+	display: inline-flex;
+	position: absolute;
+	top: 400px;
+	left: 105px;
+	color: #fff;
+}
+.play-btn-inner{
+	height: 50px;
+	width: 50px;
+	border: 2px solid transparent;
+	border-radius: 50%;
+	background-image: linear-gradient(#42555a, #42555a), radial-gradient(circle at top left,#fd00da,#19d7f8);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	right: 200px;
+	text-align: center;
+}
+.play-btn-inner .fa{
+	padding: 18px 0;
+	cursor: pointer;
+	font-size: 13px;
+}
+.play-btn-inner b{
+	position: absolute;
+	left: 70px;
+	top: 12px;
+	cursor: pointer;
+	color: #19dafa;
+	letter-spacing: 3px;
+}
+.qucik-links {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: linear-gradient(to right, #db1bf6, #19d7f8);
+}
+.qucik-links ul{
+	display: inline-flex;
+	margin: 30px auto;
+	text-align: center;
+}
+.qucik-links ul li{
+	font-size: 5px;
+	list-style: none;
+	margin: 0 50px;
+	cursor: pointer;
+}
+.qucik-links ul li .fa{
+	font-size: 25px;
+	color: #fff;
+}
+.qucik-links ul li p{
+	margin-top: 15px;
+	font-size: 10px;
+	color: #fff;
+}
+.social-media{
+	position: absolute;
+	right: 50px;
+	bottom: 35px;
+}
+.social-media ul{
+	list-style: none;
+	margin-top: 15px;
+	text-align: center;
+}.social-media ul li {
+	margin-top: 10px;
+}
+.social-media ul li a{
+	color: #999;
+	border-radius: 50%;
+	border: 1px solid #999;
+	padding: 5px;
+	display: block;
+}
+
